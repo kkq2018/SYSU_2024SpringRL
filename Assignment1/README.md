@@ -28,22 +28,22 @@
 **Option a. 使用 `conda` :**
 
 ```shell
-conda create -n 2023RL python=3.9
-conda activate 2023RL
+conda create -n 2024RL python=3.9
+conda activate 2024RL
 ```
 
 **Option b. 使用 Python 工具 :**
 
 ```shell
-python -m venv 2023RL
-source 2023RL/bin/activate
+python -m venv 2024RL
+source 2024RL/bin/activate
 ```
 
 #### 3. 配置项目仓库
 
 ```shell
-git clone https://github.com/joenghl/SYSU_2023SpringRL.git
-cd SYSU_2023SpringRL
+git clone https://github.com/Atan03/SYSU_2024SpringRL.git
+cd SYSU_2024SpringRL
 ```
 
 #### 4. 安装依赖库
@@ -106,14 +106,14 @@ while not done and t < env.max_step:
 
 ### 提交方式
 
-将以上代码和报告文件分别上传至 FTP 服务器根目录下的 `研究生强化学习作业1_code` 和 `研究生强化学习作业1_report`，截止日期: 2023.4.28 23:59。
+将以上代码和报告文件分别上传至 FTP 服务器根目录下的 `研究生强化学习作业1_code` 和 `研究生强化学习作业1_report`，截止日期: 2024.4.28 23:59。
 
-IP: 222.200.177.152
+IP: 222.200.177.156
 
-Port: 1021
+Port: 2021
 
 User: ftpstu
 
-Password: 123456
+Password: 12345678
 
-Tips: Windows 下在文件夹路径填入 `ftp://222.200.177.152:1021/` 后输入用户名和密码即可连接至 FTP 服务器（校园网内网）。
+Tips: Windows 下在文件夹路径填入 `ftp://222.200.177.156:2021/` 后输入用户名和密码即可连接至 FTP 服务器（校园网内网下）。

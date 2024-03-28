@@ -70,7 +70,7 @@ source mpe/bin/activate
 **Option a. 更新之前的仓库 :**
 
 ```shell
-cd SYSU_2023SpringRL
+cd SYSU_2024SpringRL
 git pull origin master
 cd Assignment2
 ```
@@ -78,8 +78,8 @@ cd Assignment2
 **Option b. 重新拉取仓库 :**
 
 ```shell
-git clone https://github.com/joenghl/SYSU_2023SpringRL.git
-cd SYSU_2023SpringRL/Assignment2
+git clone https://github.com/joenghl/SYSU_2024SpringRL.git
+cd SYSU_2024SpringRL/Assignment2
 ```
 
 #### 4. 配置仿真环境 Multi-Agent Particle Environments (MPE)
@@ -148,7 +148,7 @@ Assignment2
 
 如: `22000000_zhangsan.zip`, `22000000_zhangsan_v1.zip`
 
-模型压缩包需上传至 FTP 服务器根目录下的 `研究生强化学习作业2_code` 文件夹，截止日期: 2023.7.16 23:59。
+模型压缩包需上传至 FTP 服务器根目录下的 `研究生强化学习作业2_code` 文件夹，截止日期: 2024.7.16 23:59。
 
 ### 2. 实验报告压缩包
 将完整训练的代码、实验报告，以及自己的模型在 `run_test.py` 中测试的渲染录制一个 5~10 s 的视频，格式为 `.mp4`，打包为一个压缩包提交。渲染时可将 `run_test.py` 中的 `render()` 注释取消。
@@ -161,17 +161,17 @@ Assignment2
 
 ### FTP 服务器
 
-IP: 222.200.177.152
+IP: 222.200.177.156
 
-Port: 1021
+Port: 2021
 
 User: ftpstu
 
-Password: 123456
+Password: 12345678
 
-Tips: Windows 下在文件夹路径填入 `ftp://222.200.177.152:1021/` 后输入用户名和密码即可连接至 FTP 服务器（校园网内网）。
+Tips: Windows 下在文件夹路径填入 `ftp://222.200.177.156:2021/` 后输入用户名和密码即可连接至 FTP 服务器（校园网内网）。
 
 ## 问题反馈
 
-有任何疑问可直接在课程群中提问，或者在此提 Issues，或者发邮件至助教邮箱: yanghlin7@mail2.sysu.edu.cn，每天固定时间检查并回复邮件，请勿直接添加助教个人微信。
+有任何疑问可直接在课程群中提问，或者在此提 Issues，或者发邮件至助教邮箱: huchh9@mail2.sysu.edu.cn，每天固定时间检查并回复邮件，请勿直接添加助教个人微信。
 

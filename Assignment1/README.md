@@ -42,7 +42,7 @@ source 2024RL/bin/activate
 #### 3. 配置项目仓库
 
 ```shell
-git clone https://github.com/Atan03/SYSU_2024SpringRL.git
+git clone https://github.com/kkq2018/SYSU_2024SpringRL.git
 cd SYSU_2024SpringRL
 ```
 

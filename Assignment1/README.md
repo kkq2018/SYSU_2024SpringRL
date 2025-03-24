@@ -5,7 +5,7 @@
 
 本次实践作业将在以下环境进行：
 
-![这是图片](../docs/images/mini_grid.png "Magic Gardens")
+![grid](../docs/images/mini_grid.png "grid")
 
 该环境由一个 6×6 网格组成，其中黄色圆圈为智能体出发点，黑色格子为无法通过的墙壁，若智能体向着墙壁方向移动，则会停留在原地，地图边界的移动同理。带有黄色边框的格子为终止状态，即若智能体行动至此状态则整个 episode 结束。红色和绿色表示当前该状态的奖励值，奖励越高则绿色越深，奖励越低则红色越深。
 
@@ -21,7 +21,7 @@
 
 #### 1. 安装 `conda` 工具 (推荐, 可选)
 
-推荐从 [Miniconda Official](https://docs.conda.io/en/latest/miniconda.html) 下载 `Miniconda` ，安装时勾选自动添加环境变量选项，若没有勾选则需要手动添加，其他选项默认即可。
+推荐安装Miniconda或者Anaconda（镜像或是官网）
 
 #### 2. 新建并激活用于此项目的虚拟环境 
 
@@ -30,13 +30,6 @@
 ```shell
 conda create -n 2024RL python=3.9
 conda activate 2024RL
-```
-
-**Option b. 使用 Python 工具 :**
-
-```shell
-python -m venv 2024RL
-source 2024RL/bin/activate
 ```
 
 #### 3. 配置项目仓库
